@@ -1,0 +1,475 @@
+# ── Programming Languages ──────────────────────────────────────────────────────
+python
+java
+javascript
+typescript
+c
+c++
+c#
+ruby
+php
+swift
+kotlin
+go
+rust
+scala
+r
+matlab
+perl
+bash
+powershell
+dart
+lua
+haskell
+elixir
+clojure
+
+# ── Web Frontend ───────────────────────────────────────────────────────────────
+html
+css
+react
+angular
+vue
+svelte
+next.js
+nuxt.js
+gatsby
+tailwind css
+bootstrap
+sass
+less
+webpack
+vite
+jquery
+redux
+graphql
+rest api
+
+# ── Web Backend ────────────────────────────────────────────────────────────────
+node.js
+express
+django
+flask
+fastapi
+spring boot
+laravel
+rails
+asp.net
+fastify
+nestjs
+strapi
+
+# ── Mobile Development ─────────────────────────────────────────────────────────
+react native
+flutter
+swift
+kotlin
+ionic
+xamarin
+android sdk
+ios development
+firebase
+expo
+
+# ── Databases ──────────────────────────────────────────────────────────────────
+sql
+mysql
+postgresql
+sqlite
+mongodb
+redis
+elasticsearch
+cassandra
+dynamodb
+oracle
+microsoft sql server
+mariadb
+neo4j
+couchdb
+influxdb
+snowflake
+bigquery
+
+# ── Cloud & DevOps ─────────────────────────────────────────────────────────────
+aws
+azure
+google cloud
+docker
+kubernetes
+terraform
+ansible
+jenkins
+github actions
+gitlab ci
+circleci
+linux
+nginx
+apache
+helm
+prometheus
+grafana
+cloudformation
+pulumi
+vagrant
+
+# ── Data Science & Machine Learning ───────────────────────────────────────────
+machine learning
+deep learning
+data analysis
+data visualization
+natural language processing
+computer vision
+reinforcement learning
+statistics
+pandas
+numpy
+scikit-learn
+tensorflow
+pytorch
+keras
+xgboost
+lightgbm
+matplotlib
+seaborn
+plotly
+jupyter
+scipy
+hugging face
+mlflow
+feature engineering
+time series analysis
+a/b testing
+
+# ── Data Engineering ───────────────────────────────────────────────────────────
+apache spark
+apache kafka
+apache airflow
+hadoop
+dbt
+etl
+data warehousing
+data pipelines
+databricks
+azure data factory
+google dataflow
+fivetran
+dask
+hive
+
+# ── Business Intelligence & Analytics ─────────────────────────────────────────
+power bi
+tableau
+looker
+excel
+google analytics
+google data studio
+qlik
+sas
+spss
+data modeling
+sql reporting
+kpi reporting
+dax
+m language
+
+# ── Version Control & Collaboration ───────────────────────────────────────────
+git
+github
+gitlab
+bitbucket
+jira
+confluence
+trello
+asana
+notion
+slack
+microsoft teams
+linear
+
+# ── Testing & QA ──────────────────────────────────────────────────────────────
+testing
+selenium
+cypress
+jest
+pytest
+junit
+mocha
+chai
+playwright
+postman
+loadrunner
+jmeter
+testng
+appium
+cucumber
+test automation
+unit testing
+integration testing
+performance testing
+regression testing
+manual testing
+
+# ── Security & Networking ──────────────────────────────────────────────────────
+cybersecurity
+penetration testing
+network security
+ethical hacking
+firewalls
+vpn
+ssl
+cryptography
+siem
+soc
+vulnerability assessment
+owasp
+burp suite
+nmap
+wireshark
+splunk
+identity management
+zero trust
+iam
+active directory
+
+# ── UI/UX & Design ────────────────────────────────────────────────────────────
+figma
+adobe xd
+sketch
+invision
+user research
+wireframing
+prototyping
+usability testing
+accessibility
+responsive design
+design systems
+adobe photoshop
+adobe illustrator
+adobe after effects
+motion design
+interaction design
+information architecture
+
+# ── Project Management & Agile ────────────────────────────────────────────────
+agile
+scrum
+kanban
+waterfall
+prince2
+pmp
+risk management
+stakeholder management
+project planning
+sprint planning
+product roadmap
+change management
+lean
+six sigma
+
+# ── Finance & Accounting ──────────────────────────────────────────────────────
+financial analysis
+financial modeling
+accounting
+budgeting
+forecasting
+valuation
+investment analysis
+risk analysis
+portfolio management
+bloomberg terminal
+quickbooks
+sap
+oracle financials
+ifrs
+gaap
+tax
+auditing
+cash flow analysis
+mergers and acquisitions
+equity research
+
+# ── Marketing & Growth ────────────────────────────────────────────────────────
+digital marketing
+seo
+sem
+social media marketing
+content marketing
+email marketing
+google ads
+facebook ads
+copywriting
+brand management
+market research
+crm
+hubspot
+salesforce
+mailchimp
+affiliate marketing
+influencer marketing
+conversion rate optimization
+marketing analytics
+
+# ── Sales & Business Development ──────────────────────────────────────────────
+sales
+b2b sales
+b2c sales
+lead generation
+negotiation
+account management
+customer success
+cold calling
+salesforce
+pipedrive
+zoho crm
+revenue operations
+business development
+partnership management
+sales forecasting
+
+# ── Human Resources ───────────────────────────────────────────────────────────
+recruitment
+talent acquisition
+onboarding
+performance management
+employee relations
+payroll
+hris
+workday
+bamboohr
+succession planning
+learning and development
+compensation and benefits
+organizational development
+hr analytics
+
+# ── Legal & Compliance ────────────────────────────────────────────────────────
+contract law
+corporate law
+compliance
+regulatory affairs
+gdpr
+legal research
+litigation
+intellectual property
+employment law
+data privacy
+risk and compliance
+anti-money laundering
+due diligence
+
+# ── Healthcare & Medicine ─────────────────────────────────────────────────────
+clinical research
+patient care
+ehr systems
+epic
+medical coding
+icd-10
+cpt coding
+healthcare compliance
+hipaa
+nursing
+pharmacy
+radiology
+laboratory skills
+anatomy
+physiology
+medical billing
+telehealth
+clinical trials
+
+# ── Education & Training ──────────────────────────────────────────────────────
+curriculum development
+lesson planning
+e-learning
+instructional design
+lms
+moodle
+canvas
+classroom management
+assessment design
+special education
+tutoring
+training facilitation
+adult learning
+
+# ── Writing & Communication ───────────────────────────────────────────────────
+technical writing
+content writing
+copywriting
+editing
+proofreading
+grant writing
+proposal writing
+report writing
+journalism
+research writing
+documentation
+api documentation
+ux writing
+
+# ── Engineering (Non-Software) ─────────────────────────────────────────────────
+autocad
+solidworks
+catia
+matlab
+finite element analysis
+cad
+cam
+circuit design
+pcb design
+embedded systems
+plc programming
+mechanical design
+structural analysis
+thermodynamics
+fluid mechanics
+civil engineering
+electrical engineering
+control systems
+robotics
+arduino
+raspberry pi
+
+# ── Supply Chain & Operations ─────────────────────────────────────────────────
+supply chain management
+logistics
+inventory management
+procurement
+vendor management
+erp
+sap
+oracle scm
+demand planning
+warehouse management
+lean manufacturing
+quality assurance
+iso standards
+operations management
+facilities management
+
+# ── Customer Support ──────────────────────────────────────────────────────────
+customer service
+zendesk
+freshdesk
+intercom
+helpdesk
+technical support
+ticketing systems
+live chat
+conflict resolution
+service level agreements
+
+# ── Soft Skills (Detectable from Resume Text) ─────────────────────────────────
+leadership
+communication
+teamwork
+problem solving
+critical thinking
+time management
+adaptability
+attention to detail
+decision making
+mentoring
+public speaking
+collaboration
+analytical thinking
