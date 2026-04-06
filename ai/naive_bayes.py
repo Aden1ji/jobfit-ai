@@ -90,7 +90,7 @@ def classify_fit_simple(overlap: int, job_total: int) -> str:
         return "Not Fit"
     ratio = overlap / job_total
     if ratio >= 0.7:
-        return "Good Fit"
+        return "GoodFit"
     if ratio >= 0.4:
         return "Maybe"
-    return "Not Fit"
+    return "NotFit"
