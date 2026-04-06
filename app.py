@@ -1,3 +1,4 @@
+import html as html_module
 import streamlit as st
 import csv
 from pathlib import Path
@@ -46,13 +47,6 @@ html, body, .stApp {
 }
 
 /* ── Custom header ── */
-.jf-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 0.25rem;
-}
 .jf-header {
     position: absolute;
     top: 25px;
@@ -623,16 +617,19 @@ if uploaded_file:
         }.get(fit, "")
 
         knn_badge = '<span class="jf-knn">KNN ★</span>' if is_knn else ""
-        matched_text = ", ".join(result["matched_skills"]) if result["matched_skills"] else "none"
+        matched_text = ", ".join(html_module.escape(s) for s in result["matched_skills"]) if result["matched_skills"] else "none"
         bar_width = min(pct, 100)
+        safe_title = html_module.escape(result['title'])
+        safe_company = html_module.escape(result['company'])
+        safe_location = html_module.escape(result.get('location', 'Unknown'))
 
         st.markdown(f"""
         <div class="jf-card {card_class}">
             <div class="jf-card-top">
                 <div>
-                    <div class="jf-card-title">{result['title']}{knn_badge}</div>
-                    <div class="jf-card-company">{result['company']}</div>
-                    <div class="jf-card-location">📍 {result.get('location', 'Unknown')}</div>
+                    <div class="jf-card-title">{safe_title}{knn_badge}</div>
+                    <div class="jf-card-company">{safe_company}</div>
+                    <div class="jf-card-location">📍 {safe_location}</div>
                 </div>
                 <div>
                     <div class="jf-score">{pct}%</div>
@@ -676,11 +673,13 @@ if uploaded_file:
     )
 
     for i, job in enumerate(knn_results, 1):
+        safe_knn_title = html_module.escape(job['title'])
+        safe_knn_company = html_module.escape(job['company'])
         st.markdown(f"""
         <div class="jf-knn-row">
             <span class="jf-knn-rank">0{i}</span>
-            <span class="jf-knn-title">{job['title']}</span>
-            <span class="jf-knn-company">{job['company']}</span>
+            <span class="jf-knn-title">{safe_knn_title}</span>
+            <span class="jf-knn-company">{safe_knn_company}</span>
             <span class="jf-knn-dist">d={job['knn_distance']}</span>
         </div>
         """, unsafe_allow_html=True)
